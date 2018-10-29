@@ -1,0 +1,42 @@
+.ql-table.ql-picker {
+    width: 70px;
+}
+
+.ql-table .ql-picker-label::before {
+    content: 'Table ';
+}
+
+.ql-table .ql-picker-options .ql-picker-item[data-value="insertTable"]::before {
+    content: 'Insert table';
+}
+.ql-table .ql-picker-options .ql-picker-item[data-value="deleteTable"]::before {
+    content: 'Delete table';
+}
+.ql-table .ql-picker-options .ql-picker-item[data-value="deleteColumn"]::before {
+    content: 'Delete column';
+}
+.ql-table .ql-picker-options .ql-picker-item[data-value="deleteRow"]::before {
+    content: 'Delete row';
+}
+.ql-table .ql-picker-options .ql-picker-item[data-value="insertColumnLeft"]::before {
+    content: 'Insert column left';
+}
+.ql-table .ql-picker-options .ql-picker-item[data-value="insertColumnRight"]::before {
+    content: 'Insert column right';
+}
+.ql-table .ql-picker-options .ql-picker-item[data-value="insertRowAbove"]::before {
+    content: 'Insert row above';
+}
+.ql-table .ql-picker-options .ql-picker-item[data-value="insertRowBelow"]::before {
+    content: 'Insert row below';
+}
+.ql-table .ql-picker-options .ql-picker-item[data-value="combineColumnLeft"]::before {
+    content: 'Combine column left';
+}
+.ql-table .ql-picker-options .ql-picker-item[data-value="combineColumnRight"]::before {
+    content: 'Combine column right';
+}
+.ql-table .ql-picker-options .ql-picker-item[data-value="combineRow"]::before {
+    content: 'Combine row';
+}
+
